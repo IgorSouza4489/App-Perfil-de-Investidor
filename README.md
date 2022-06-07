@@ -6,7 +6,7 @@ App Perfil Investidor em Kotlin
 <br>
 ![app13](https://user-images.githubusercontent.com/63150786/172281493-79e0fa75-8db7-479a-9c44-82df2be8da3b.PNG)
 <br>
-![app14](https://user-images.githubusercontent.com/63150786/172281863-be7df2de-2d68-4cfd-b0b9-492b8f7fddc5.PNG)
+![app16](https://user-images.githubusercontent.com/63150786/172282029-4572c68c-97bb-4dbf-88fa-63b5fd27fe1a.PNG)
 
 
 
