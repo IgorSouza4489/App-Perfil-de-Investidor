@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quintapergunta">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:text="5- Caso as suas aplicações sofressem uma queda superior a 30%, o que você faria?"
+        android:textColor="#2437B8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <RadioGroup
+        android:id="@+id/R5A"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv">
+
+
+        <RadioButton
+            android:id="@+id/Q5A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resgataria toda a aplicação e aplicaria na poupança" />
+
+        <RadioButton
+            android:id="@+id/Q5B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manteria aplicação aguardando uma melhora do mercado" />
+
+        <RadioButton
+            android:id="@+id/Q5C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aumentaria a aplicação para aproveitar as oportunidades do mercado" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2437B8"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/activity_perguntas.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_nonapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_oitavapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_primeirapergunta2.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_quartapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_quintapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_segundapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_setimapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_sextapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout-land/fragment_terceirapergunta.xml" value="0.31040564373897706" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/activity_perguntas.xml" value="0.33" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/activity_resultado.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_nonapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_oitavapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_primeirapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_primeirapergunta2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_quartapergunta.xml" value="0.25" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_quintapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_rs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_segundapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_setimapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_sextapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_terceira.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/layout/fragment_terceirapergunta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lokai/AndroidStudioProjects/Conservador/app/src/main/res/menu/app_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacao"
+    app:startDestination="@id/primeirapergunta">
+
+    <fragment
+        android:id="@+id/primeirapergunta"
+        android:name="com.example.conservador.primeirapergunta"
+        android:label="fragment_primeirapergunta2"
+        tools:layout="@layout/fragment_primeirapergunta2" >
+        <action
+            android:id="@+id/action_primeirapergunta_to_segundapergunta2"
+            app:destination="@id/segundapergunta" />
+    </fragment>
+    <fragment
+        android:id="@+id/segundapergunta"
+        android:name="com.example.conservador.segundapergunta"
+        android:label="fragment_segundapergunta"
+        tools:layout="@layout/fragment_segundapergunta" >
+        <action
+            android:id="@+id/action_segundapergunta_to_terceirapergunta"
+            app:destination="@id/terceirapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/terceirapergunta"
+        android:name="com.example.conservador.terceirapergunta"
+        android:label="fragment_terceirapergunta"
+        tools:layout="@layout/fragment_terceirapergunta" >
+        <action
+            android:id="@+id/action_terceirapergunta_to_quartapergunta"
+            app:destination="@id/quartapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/quartapergunta"
+        android:name="com.example.conservador.quartapergunta"
+        android:label="fragment_quartapergunta"
+        tools:layout="@layout/fragment_quartapergunta" >
+        <action
+            android:id="@+id/action_quartapergunta_to_quintapergunta"
+            app:destination="@id/quintapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/quintapergunta"
+        android:name="com.example.conservador.quintapergunta"
+        android:label="fragment_quintapergunta"
+        tools:layout="@layout/fragment_quintapergunta" >
+        <action
+            android:id="@+id/action_quintapergunta_to_sextapergunta"
+            app:destination="@id/sextapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/sextapergunta"
+        android:name="com.example.conservador.sextapergunta"
+        android:label="fragment_sextapergunta"
+        tools:layout="@layout/fragment_sextapergunta" >
+        <action
+            android:id="@+id/action_sextapergunta_to_setimapergunta"
+            app:destination="@id/setimapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/setimapergunta"
+        android:name="com.example.conservador.setimapergunta"
+        android:label="fragment_setimapergunta"
+        tools:layout="@layout/fragment_setimapergunta" >
+        <action
+            android:id="@+id/action_setimapergunta_to_oitavapergunta"
+            app:destination="@id/oitavapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/oitavapergunta"
+        android:name="com.example.conservador.oitavapergunta"
+        android:label="fragment_oitavapergunta"
+        tools:layout="@layout/fragment_oitavapergunta" >
+        <action
+            android:id="@+id/action_oitavapergunta_to_nonapergunta"
+            app:destination="@id/nonapergunta" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/nonapergunta"
+        android:name="com.example.conservador.nonapergunta"
+        android:label="fragment_nonapergunta"
+        tools:layout="@layout/fragment_nonapergunta" >
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_nonapergunta_to_rs2"
+            app:destination="@id/rs2" />
+    </fragment>
+    <activity
+        android:id="@+id/resultado"
+        android:name="com.example.conservador.Resultado"
+        android:label="activity_resultado"
+        tools:layout="@layout/activity_resultado" >
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </activity>
+    <fragment
+        android:id="@+id/rs2"
+        android:name="com.example.conservador.Rs"
+        android:label="fragment_rs"
+        tools:layout="@layout/fragment_rs" >
+        <action
+            android:id="@+id/action_rs2_to_resultado"
+            app:destination="@id/resultado" />
+        <argument
+            android:name="pontos"
+            app:argType="integer" />
+    </fragment>
+</navigation>
