@@ -1,6 +1,6 @@
 # App-Perfil-de-Investidor
-Primeiro aplicativo desenvolvido.
-App Perfil Investidor em Kotlin
+Primeiro aplicativo desenvolvido.<br>
+App Perfil Investidor em Kotlin com 9 perguntas
 <br><br>
 ![app12](https://user-images.githubusercontent.com/63150786/172281492-12ffdbcb-c1b4-4f58-adf0-098bb7601b39.PNG)
 <br>
